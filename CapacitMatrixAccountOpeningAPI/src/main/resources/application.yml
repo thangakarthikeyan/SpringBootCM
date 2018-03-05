@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet-path: /system
+
+management.security.enabled: false
+
+cxf:
+  path: /accountopeningCMRules/v1
+  servlet.init: 
+    service-list-path: /info
+
+endpoints:
+  jmx:
+    enabled: true
+    unique-names: true
